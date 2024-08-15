@@ -1,14 +1,16 @@
 import './App.css'
 
-import {SignUp} from "./Components/SignUp";
-import { SignIn } from './Components/SignIn';
+import {SignUp} from "./Components/Auth/SignUp";
+import { SignIn } from './Components/Auth/SignIn';
+import { Main } from './Components/Main/Main';
 function App() {
 
   return (
     <>
-      <div className='bg-red-500'>
+      <div className='bg-slate-500 h-screen'>
           {/* <SignUp/> */}
-        <SignIn/>
+        {/* <SignIn/> */}
+        <Main/>
       </div>
     </>
   )
