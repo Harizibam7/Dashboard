@@ -5,11 +5,11 @@ export function Banner(){
                 <div>
                     Septemper 4, 2024
                 </div>
-                <div>
-                    <div className="font-semibold font-medium">
+                <div >
+                    <div className="font-bold text-3xl">
                         Welcome back, Harizibam!
                     </div>
-                    <div className="font-bold ">
+                    <div className="font-bold pt-2">
                         Always stay updated in your student portal
                     </div>
                 </div>

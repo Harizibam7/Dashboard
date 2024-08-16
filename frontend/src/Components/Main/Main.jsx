@@ -8,10 +8,10 @@ import { Offers } from "./Offers/Offers"
 
 export function Main() {
     return <div className="bg-slate-500 h-screen w-screen flex">
-        <div className="bg-sky-900 h-full w-[15%]">
+        <div className="bg-slate-800 h-full w-[15%]">
             <Sidebar />
         </div>
-        <div  className="bg-sky-950 flex flex-col h-full w-[85%] text-white p-12">
+        <div  className="bg-slate-900 flex flex-col h-full w-[85%] text-white p-12">
             <div className="w-full h-[10%]">
                 <Topbar/>
             </div>
@@ -19,7 +19,7 @@ export function Main() {
                 <Banner/>
             </div>
             <div className="w-full h-[70%] flex">
-                <div className="w-[70%] h-full">
+                <div className="w-[70%] h-full flex flex-col justify-center">
                     <div className="w-full h-[50%]">
                         <Notice  />
                     </div>

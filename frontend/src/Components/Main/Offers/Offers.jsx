@@ -3,7 +3,7 @@ export function Offers(){
         <div className="w-full h-[10%]">
             Offers
         </div>
-        <div className="w-full h-[70%] flex justify-center gap-4 bg-red-500 p-4">
+        <div className="w-full h-[70%] flex justify-center gap-10 bg-red-500 p-4">
             <div className="h-[100%] w-[100%] bg-blue-500 rounded-full"></div>
             <div className="h-[100%]  w-[100%] bg-blue-500 rounded-full"></div>
             <div className="h-[100%] w-[100%] bg-blue-500 rounded-full"></div>
