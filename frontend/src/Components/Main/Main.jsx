@@ -15,23 +15,23 @@ export function Main() {
             <div className="w-full h-[10%]">
                 <Topbar/>
             </div>
-            <div className="w-full h-[30%]">
+            <div className="w-full h-[40%]">
                 <Banner/>
             </div>
             <div className="w-full h-[70%] flex">
                 <div className="w-[70%] h-full">
                     <div className="w-full h-[50%]">
-                        <Notice />
+                        <Notice  />
                     </div>
                     <div className="w-full h-[50%]">
                         <Status/>
                     </div>
                 </div>
                 <div className="w-[20%] h-full">
-                        <div className="h-[25%] w-full">
+                        <div className="h-[30%] w-full">
                             <Offers/>
                         </div>
-                        <div className="h-[75%] w-full">
+                        <div className="h-[70%] w-full">
                             <News/>
                         </div>
                 </div>
