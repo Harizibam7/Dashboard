@@ -4,7 +4,7 @@ export function Status(){
             <div>
                 Status
             </div>
-            <div>
+            <div className="cursor-pointer">
                 See all
             </div>
         </div>
