@@ -37,7 +37,6 @@ export function Sidebar(){
                 <Tag icon={DashboardIcon} label={"Dashboard"}/>
                 <Tag icon={RankList} label={"Rank List"}/>    
                 <Tag icon={News} label={"News"}/>
-                <Tag icon={Assessment} label={"Assessment"}/>
                 <Tag icon={Leave} label={"Leave"}/>
                 <Tag icon={Schedule} label={"Schedule"}/>
             </div>

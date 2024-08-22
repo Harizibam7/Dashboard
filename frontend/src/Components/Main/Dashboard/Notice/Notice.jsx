@@ -4,7 +4,7 @@ export function Notice(){
         <div className="text-xl font-bold w-full h-[10%]">
             Notice
         </div>
-        <div className="w-full h-[90%] gap-1 grid grid-cols-4 shadow-lg  rounded-lg cursor-pointer">
+        <div className="w-full h-[90%] gap-1 grid grid-cols-4 rounded-lg cursor-pointer">
             <NoticeTag label={"Hi there"}/>
             <NoticeTag label={"Hi there"}/>
             <NoticeTag label={"Hi there"}/>

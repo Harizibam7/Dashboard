@@ -4,12 +4,12 @@ export function Profile(){
     return <>
         <div className="w-full h-full flex gap-5">
             <div className="w-[25%] h-full bg-slate-800 rounded-xl">
-                <div className="w-full h-[20%] flex justify-center p-8">
+                <div className="w-full h-[20%] flex justify-center p-8  select-none cursor-pointer">
                     <div className="w-32 h-32 bg-slate-50 flex justify-center items-center font-bold text-slate-950 text-7xl rounded-full ">
                         H
                     </div>
                 </div>
-                <div className="w-full h-[26%]">
+                <div className="w-full h-[30%]">
                         <Details/>
                 </div>
                 <div className="w-full h-[20%] flex justify-center items-center gap-3 text-slate-950 font-bold text-xl">
@@ -26,20 +26,24 @@ export function Profile(){
                     </div>
                     <input className="w-[90%] h-10 rounded text-slate-950"/>
                 </div>
-                <div>
+                <div className="flex flex-col gap-2 pl-10 pt-6">
                     <div>
-
+                        Attended: 10
                     </div>
-                    <div>
-                        
+                    <div className="flex justify-between pr-10">
+                        <div>Accepted: 0</div>
+                        <div>Rejected: 0</div>
+                        <div>Skipped: 0</div>
                     </div>
                 </div>
-                <div>
-                    Resume
+                <div className="pl-10 flex justify-between pt-5 pr-10">
+                    <div>Resume</div>
+                    <button className="bg-slate-950 w-22 p-2 rounded-md">Discard</button>
+                    <button type="file" className="bg-slate-950 w-22 p-2 rounded-md">Attach files</button>
                 </div>
             </div>
             <div className="w-[75%] h-full bg-slate-800 rounded-xl">
-                <div>
+                <div >
                         Rank List
                 </div>
                 <div>
