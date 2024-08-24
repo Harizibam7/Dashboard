@@ -5,10 +5,10 @@ export function Notice(){
             Notice
         </div>
         <div className="w-full h-[90%] gap-1 grid grid-cols-4 rounded-lg cursor-pointer">
-            <NoticeTag label={"Hi there"}/>
-            <NoticeTag label={"Hi there"}/>
-            <NoticeTag label={"Hi there"}/>
-            <NoticeTag label={"Hi there"}/>
+            <NoticeTag label={"1"} head = {"Full-Stack Rank"}/>
+            <NoticeTag label={"58.4"} head={"Placement Cumulative %"} />
+            <NoticeTag label={"83.8"} head ={"Current Placement FA %"}/>
+            <NoticeTag label={"1450"} head={"Full-Stack Top Rank Points"}/>
         </div>
     </div>
 
